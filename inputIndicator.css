@@ -1,0 +1,16 @@
+input{
+    padding:5px; margin:20px; width:300px; font-size:20px; 
+    border-radius:8px; background-color:#F1F1F1; border:1px solid #CCC;  
+    box-shadow:3px 3px 4px #CCC inset;
+    
+    background-image:linear-gradient(0deg, #40C8F4 100%, transparent 0%);
+    background-image:-webkit-linear-gradient(0deg, #40C8F4 100%, transparent 0%);
+    background-repeat:no-repeat;
+    background-position:0 100px;
+    
+    transition:200ms;
+    -webkit-transition:200ms;
+    -o-transition:200ms;
+}
+/* for ugly chrome */
+textarea:focus, input:focus{ outline:none; }
