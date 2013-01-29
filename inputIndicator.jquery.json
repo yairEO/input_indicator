@@ -1,9 +1,9 @@
 {
-	"name": "input_indicator",
+	"name": "inputIndicator",
 	"title": "input indicator",
 	"description": "Indicates the current cursor position on an Input field and how much text is occupying it. Easy to implement in any website without modifying the DOM at all",
 	"keywords": ["input", "field", "indicator", "cursor", "text", "indication"],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": {
 		"name": "Yair Even Or",
 		"url": "http://dropthebit.com"
