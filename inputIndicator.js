@@ -20,7 +20,6 @@
 					getSelectionDirection.lastOffset = e.clientX;
 				else if( e.type == 'mouseup' ){
 					getSelectionDirection.direction = e.clientX < getSelectionDirection.lastOffset ? 'left' : 'right';
-					//console.log(direction);
 				}
 			}
 		};
