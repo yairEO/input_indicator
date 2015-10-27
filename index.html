@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Input Indicator - Yair Even-Or</title>
+        <link rel="stylesheet" href="inputIndicator.css">
+		<style>
+			body{ text-align:center; font:16px Roboto, Helvetica, Arial, Serif; }
+			input{ margin:5em; padding:.6em; font-family:inherit; }
+			a{ position:absolute; top:1em; right:1em; } 
+		</style>
+    </head>
+    <body>
+        <a href="https://github.com/yairEO/input_indicator">GitHub Repo</a>
+        <input type='text' placeholder='Start typing a long sentence...'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="inputIndicator.js"></script>
+        <script>
+            $('input').inputIndicator({bgPos:'45px'});
+        </script>
+    </body>
+</html>
