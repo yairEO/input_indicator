@@ -2,7 +2,7 @@ input_indicator
 ===============
 Indicates the current cursor position on an Input field and how much text is occupying it. Easy to implement in any website without modifying the DOM at all
 
-## [demo page](http://dropthebit.com/325/smart-input-field-position-indicator/)
+## [demo page](http://yaireo.github.io/input_indicator)
 
  
 *   No images, pure CSS rendering
